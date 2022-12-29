@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .name{
+        display:flex;
+    }
+    .form{
+        border:2px solid black;
+        /* width: 1500px;  */
+        height:500px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EIAS</title>
+</head>
+
+<body style="background-image:url(https://images.pexels.com/photos/13931014/pexels-photo-13931014.jpeg?cs=srgb&dl=pexels-pramod-tiwari-13931014.jpg&fm=jpg);">
+    <p
+        style="color:darkcyan;background-color: black;text-align: center;font-size: xx-large;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        | Einstein Institute of Aeronautical Sciences |</p>
+
+    <center><p1 style="font-size: x-large;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;background-color:black;color:darkcyan;">Registration Form</p1><br><br></center>
+    <div class="form" img src="/EIAS.gif">
+    <form>
+        <div class="name">
+        <label for="frst NAme" style ="padding-left: 500px;margin-bottom: 30px;margin-top: 50px;">First Name:</label>
+        <input type="text" value="First Name"style="margin-bottom: 30px;margin-top: 50px;"required><br>
+      
+            <label for ="name"style ="padding-bottom: 20px;margin-bottom: 30px;margin-left:70px;margin-top: 50px;">Last Name: </label>
+            <input type="text" value="Last Name"style="margin-bottom: 30px;margin-top: 50px;"required>
+        </div>
+        <div class="contact">
+            <label for="contact"style ="padding-left: 500px;margin-bottom: 30px;">Email:</label>
+            <input type="email"value="Email"style="margin-bottom: 30px;"required>
+            <label for="number"style="margin-bottom: 30px;margin-left:95px;">Phone Number:</label>
+            <input type="number"style="margin-bottom: 30px;"required>
+        </div>
+        <div class="details">
+            <label for ="username"style ="padding-left: 500px;margin-bottom: 30px;">Username:</label>
+            <input type="text"value="Username"style="margin-bottom: 30px;"required>
+            <label for="password"style="margin-bottom: 30px;margin-left:70px;">Password:</label>
+            <input type="password"style="margin-bottom: 30px;"required>
+        </div>
+        <div class="dob">
+            <label for="verification"style ="padding-left: 500px;margin-bottom: 30px;">Verify Password:</label>
+            <input type="password"style="margin-bottom: 30px;">
+            <label for="dob"style="margin-bottom: 30px;margin-left:30px;">Date of Birth</label>
+            <input type="date"style="margin-bottom: 30px;">
+        </div>
+        <div>
+            <label for="gender"style ="padding-left: 500px;margin-bottom: 30px;">Gender:</label>
+            Male:   <input type="radio"style="margin-bottom: 30px;"required>
+            Female: <input type="radio"style="margin-bottom: 30px;"required>
+        </div>
+        <div class="reports">
+            <label for="10th"style ="padding-left: 500px;margin-bottom: 30px;">10th score card </label>
+            <input type="file" style="margin-bottom: 30px;"required>
+            <label for="12th"style="margin-bottom: 30px;">12th score card</label>
+            <input type="file"style="margin-bottom: 30px;"required>
+        </div>
+
+        <div>
+            <label for="idproof"style ="padding-left: 500px;margin-bottom: 30px;">Adharcard/PanCard:</label>
+            <input type="file"style="margin-bottom: 30px;">
+            <label for="photo"style="margin-bottom: 30px;">Passport Size Photo:</label>
+            <input type="file"style="margin-bottom: 30px;">
+        </div>
+        <div><span style ="padding-left: 500px;margin-bottom: 30px;">Course:</span>
+            <select name="mycourse" id="course1">
+                <option value="btech">B.Tech.</option>
+                <option value="mtech">M.Tech.</option>
+                <option value="msc">Msc.</option>
+                <option value="bsc">Bsc.</option>
+            </select>
+            <center><button style="margin-top:25px">Submit</button></center>
+        </div>
+    </div>
+    
+    </form>    
+
+
+</body>
+
+</html>
